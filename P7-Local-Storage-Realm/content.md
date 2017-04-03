@@ -179,7 +179,7 @@ Remember when you added the `UITableViewDataSource` protocol extension? The func
 > with
 >
     let row = indexPath.row
-    let note = notes[row] as Note
+    let note = notes[row]
     cell.note = note
 
 > Now instead of putting in note titles and dates ourselves, we're going to allow the app to read that information from the notes stored in Realm.
